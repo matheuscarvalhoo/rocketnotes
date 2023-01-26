@@ -1,4 +1,4 @@
-import { Container, Links, Content } from "./styles"
+import { Container, Content, Links } from "./styles"
 
 import { Button } from "../../components/Button"
 import { ButtonText } from "../../components/ButtonText"
