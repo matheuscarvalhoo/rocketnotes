@@ -1,7 +1,10 @@
+import { Container , Brand, Menu , Search, Content, NewNote } from './styles'
 import { Header } from '../../components/Header'
-import { Brand, Container, Content, Menu, NewNote, Search } from './styles'
+import { ButtonText } from '../../components/ButtonText'
+
 
 export function Home(){
+  return(
   <Container>
     <Brand>
       <h1>RocketNotes</h1>
@@ -10,7 +13,9 @@ export function Home(){
     <Header />
 
     <Menu>
-      
+      <ButtonTextColor title="Todos"/>
+      <ButtonTextColor title="React"/>
+      <ButtonTextColor title="Nodejs"/>
     </Menu> 
 
     <Search>
@@ -25,4 +30,5 @@ export function Home(){
 
     </NewNote>
   </Container>
+  )
 }
