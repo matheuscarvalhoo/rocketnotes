@@ -4,10 +4,9 @@ export function Button({title, ...rest}){
   return(
   <Container 
   type="button"
-  isActive={isActive}
   {...rest}
   >
-    Voltar
+    {title}
   </Container>
   )
 }
